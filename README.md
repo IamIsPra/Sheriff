@@ -1,6 +1,6 @@
 ![Sheriff Icon](https://raw.githubusercontent.com/IamIsPra/Sheriff/master/assets/icon.png) 
 # Sheriff
-Helps You to Grantt Runtime Permission on Android Marshmallow and Above
+Helps You to Grant Runtime Permission on Android Marshmallow and Above
 
 ## Library in Use
 
