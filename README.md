@@ -2,6 +2,12 @@
 # Sheriff
 Helps You to Grantt Runtime Permission on Android Marshmallow and Above
 
+## Library in Use
+
+Here is a screencast of the sample App
+
+![Sheriff Library in Use](https://raw.githubusercontent.com/IamIsPra/Sheriff/master/assets/app_in_use.gif) 
+
 ## How to build
 
 ### Gradle
