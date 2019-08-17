@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="25dp"
     android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="125dp"
         android:src="@drawable/sheriff_logo"
         android:contentDescription="Sheriff Logo"/>
 
@@ -21,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Sheriff Permissions"
         android:layout_below="@+id/imgLogo"
-        android:textSize="32sp"
+        android:textSize="28sp"
         android:textAlignment="center"
         android:textColor="#FFF"/>
 
@@ -29,34 +28,68 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:paddingEnd="25dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:paddingStart="25dp"
         android:orientation="vertical">
 
 
     <Button
         android:id="@+id/btnSinglePerm"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:text="Single Permission"
         android:layout_marginTop="25dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:background="@drawable/rounded_button"/>
 
     <Button
         android:id="@+id/btnMultiPerm"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:text="Multiple Permissions"
         android:layout_marginTop="25dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:background="@drawable/rounded_button"/>
 
     <Button
         android:id="@+id/btnOpenSettings"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:text="Open Settings"
         android:layout_marginTop="25dp"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:background="@drawable/rounded_button"/>
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutGithub"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#FFF"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/github"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="24dp"
+            android:textColor="#6242D4"
+            android:text="/IamIsPra/Sheriff"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 </RelativeLayout>
