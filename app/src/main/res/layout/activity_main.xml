@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sheriff_logo"
+        android:contentDescription="Sheriff Logo"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sheriff Permissions"
+        android:layout_below="@+id/imgLogo"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:textColor="#FFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnSinglePerm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Single Permission"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/btnMultiPerm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Multiple Permissions"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Open Settings"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+</RelativeLayout>
