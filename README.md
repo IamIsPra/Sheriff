@@ -1,8 +1,10 @@
-![Sheriff Icon](https://raw.githubusercontent.com/IamIsPra/Sheriff/master/assets/icon.png)
+![Sheriff Icon](https://raw.githubusercontent.com/IamIsPra/Sheriff/master/assets/icon.png) 
 # Sheriff
 Helps You to Grantt Runtime Permission on Android Marshmallow and Above
 
 ## How to build
+
+### Gradle
 
 Add Jitpack.io to your project level build.gradle file 
 ```gradle
@@ -20,6 +22,25 @@ dependencies {
 	}
 ```
 The Latest Sheriff Version is : [![](https://jitpack.io/v/IamIsPra/Sheriff.svg)](https://jitpack.io/#IamIsPra/Sheriff) 
+
+### Maven
+
+```maven
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
+Add the dependency
+```maven
+<dependency>
+	<groupId>com.github.IamIsPra</groupId>
+	<artifactId>Sheriff</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
  
 ## How to use
   
