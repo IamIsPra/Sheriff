@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements PermissionListene
                 .with(this)
                 .requestCode(REQUEST_MULTIPLE_PERMISSION)
                 .setPermissionResultCallback(this)
-                .askFor(SheriffPermission.CALENDAR, SheriffPermission.CAMERA, SheriffPermission.LOCATION)
+                .askFor(SheriffPermission.CALENDAR, SheriffPermission.CAMERA, SheriffPermission.FINE_LOCATION)
                 .rationalMessage("These Permissions are required to work app with all functions.")
                 .build();
         sheriffPermission.requestPermissions();
