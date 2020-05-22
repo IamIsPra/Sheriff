@@ -199,8 +199,11 @@ public class Sheriff {
                     case CONTACTS:
                         permissionsToAsk.add(Manifest.permission.READ_CONTACTS);
                         break;
-                    case LOCATION:
+                    case FINE_LOCATION:
                         permissionsToAsk.add(Manifest.permission.ACCESS_FINE_LOCATION);
+                        break;
+                    case COARSE_LOCATION:
+                        permissionsToAsk.add(Manifest.permission.ACCESS_COARSE_LOCATION);
                         break;
                     case MICROPHONE:
                         permissionsToAsk.add(Manifest.permission.RECORD_AUDIO);
