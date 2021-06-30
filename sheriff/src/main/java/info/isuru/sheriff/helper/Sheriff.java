@@ -222,6 +222,10 @@ public class Sheriff {
                     case STORAGE:
                         permissionsToAsk.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
                         break;
+                    case CALL_LOG:
+                        permissionsToAsk.add(Manifest.permission.READ_CALL_LOG);
+                        permissionsToAsk.add(Manifest.permission.WRITE_CALL_LOG);
+                        break;
                 }
             }
             return this;
